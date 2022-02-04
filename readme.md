@@ -5,10 +5,8 @@ ya que utilizan el dockerhub, para linux instalar por la terminal.
 
 Una vez instalado docker nos dirigimos a la carpeta /codigo por terminal , 
 ahi encontraremos un archivo llamado docker-compose que posee toda la configuracion 
-para desplegar el proyecto y ejecutaremos el siguiente comando:
+para desplegar el proyecto y ejecutaremos el siguiente comando: docker-compose up 
 
-docker-compose up ( si se desea ver log de cuando levanta el proyecto)
-docker-compose up -d ( para no ver log de cuando levanta el proyecto)
 \*\* el proyecto se levantara en la siguiente url http://localhost:8080
 
 Otra forma de levantar el proyecto es importar en un IDE que soporte java ( yo uso eclipse) y correrlo directamente.
