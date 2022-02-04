@@ -5,7 +5,7 @@ aqui les dejo el link : https://www.docker.com/get-started.
 la instalacion es super sencilla, siguiente, siguiente , siguiente en caso de MAC y Windows 
 ya que utilizan el dockerhub, para linux instalar por la terminal.
 
-Una vez instalado docker nos dirigimos a la carpeta /codigo/mario por terminal , 
+Una vez instalado docker nos dirigimos a la carpeta /codigo/evaluacion.mario.echeverria por terminal , 
 ahi encontraremos un archivo llamado docker-compose que posee toda la configuracion 
 para desplegar el proyecto y ejecutaremos el siguiente comando: docker-compose up 
 
