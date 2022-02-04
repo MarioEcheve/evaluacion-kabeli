@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "41eadf15-53be-4665-b031-141cb145503d",
+		"name": "evaluacion",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getUsers",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/user/getUsers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"user",
+						"getUsers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saveUser",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"Mario\",\n    \"password\" : \"Prueba12\",\n    \"email\" : \"marrioandres@gmail.com\",\n    \"created\" : \"2020-03-31T15:45:01Z\",\n    \"modified\" : null,\n    \"lastLogin\" : \"2020-03-31T15:45:01Z\",\n    \"isactive\" : true,\n    \"phones\": [\n        {\n            \"number\": \"1234567\",\n            \"citycode\" : \"1\",\n            \"countrycode\": \"57\"\n        },\n        {\n            \"number\": \"1234567\",\n            \"citycode\" : \"1\",\n            \"countrycode\": \"57\"\n        }\n        \n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/user/save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"user",
+						"save"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

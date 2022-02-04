@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  backend:
+    container_name: evaluacion-kabeli-backend
+    image: marioecheverria/evaluacion-kabeli:v1
+    mem_limit: 2048m
+    mem_reservation: 512m
+    cpus: 0.2
+    restart: always
+    ports:
+      - "8080:8080"
+    networks:
+      - main
+networks:
+  main:
